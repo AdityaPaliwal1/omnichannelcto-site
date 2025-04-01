@@ -1,0 +1,95 @@
+[ {
+  "id" : "efff9eb0-b62b-1741-e9be-08c796427eeb",
+  "name" : "member",
+  "label" : "Member",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "eca2fbeb-87cc-dcd1-8109-ed4f8c832134",
+    "name" : "headshot",
+    "label" : "Headshot",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "display_width" : null,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "7c75f7c8-b644-5389-3e33-69713f903280",
+    "name" : "founder_name",
+    "label" : "Member Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "display_width" : null,
+    "type" : "text"
+  }, {
+    "id" : "1c55ddb8-551a-e3b5-4698-f98c013e4779",
+    "name" : "member_title",
+    "label" : "Member Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "display_width" : null,
+    "type" : "text"
+  }, {
+    "id" : "9a16c5ad-80c9-0d66-621a-fa4fa5bf410c",
+    "name" : "member_description",
+    "label" : "Member Description",
+    "required" : false,
+    "locked" : false,
+    "display_width" : null,
+    "type" : "richtext"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "display_width" : null,
+  "type" : "group",
+  "default" : [ {
+    "headshot" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "headshot" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "headshot" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "headshot" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  } ]
+} ]
